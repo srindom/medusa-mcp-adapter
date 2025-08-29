@@ -1,0 +1,38 @@
+{
+  "name": "medusa-mcp-adapter",
+  "version": "1.0.0",
+  "description": "An adapter for Medusa to expose MCP endpoints.",
+  "main": "index.js",
+  "scripts": {
+       "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sebastian Rindom <seb@medusajs.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "@medusajs/framework": ">=2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@modelcontextprotocol/sdk": {
+      "optional": false
+    },
+    "@medusajs/framework": {
+      "optional": true
+    }
+  },
+  "packageManager": "pnpm@10.15.0",
+  "dependencies": {
+    "mcp-handler": "^1.0.2"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.12",
+    "@types/node": "^22.15.8",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.2.1",
+    "zod": "^3.25.50"
+  }
+}
