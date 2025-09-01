@@ -1,4 +1,4 @@
-# Medusa MCP adapter
+# Medusa MCP adapter (experimental)
 
 Expose an MCP server on your Medusa instance.
 
